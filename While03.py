@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    import string
+    p=string.punctuation
+    count_p=0
+    i=0
+    while i<len(s):
+        if s[i] in p:
+            count_p+=1
+        i+=1    
+    return count_p
+   
