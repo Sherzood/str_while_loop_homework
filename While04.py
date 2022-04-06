@@ -13,4 +13,4 @@ def main(s):
             count_u+=1
         i+=1    
     return count_u
-print(main('SHERzod34'))    
+    
