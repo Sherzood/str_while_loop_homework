@@ -10,7 +10,7 @@ def main(s):
     cons='a,e,i,o,u,y,A,E,I,O,U,Y'
     count_c=0
     idx=0
-    while i<len(s):
+    while idx<len(s):
         if s[idx].isalpha:
             if s[idx] not in cons:
                 count_c+=1
