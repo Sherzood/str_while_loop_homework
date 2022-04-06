@@ -7,7 +7,6 @@ def main(s):
     Returns:
         int: return answer
     """
-    import string
     cons='a,e,i,o,u,y,A,E,I,O,U,Y'
     count_c=0
     i=0
