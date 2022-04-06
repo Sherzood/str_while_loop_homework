@@ -13,4 +13,4 @@ def main(s):
             count_letters+=1
         i+=1    
     return count_letters
-print(main('sherzod1989'))    
+   
