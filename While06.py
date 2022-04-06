@@ -7,13 +7,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    cons='a,e,i,o,u'
+    cons='a,e,i,o,u,y,A,E,I,O,U,Y'
     count_c=0
-    i=0
+    idx=0
     while i<len(s):
-        if s[i].isalpha:
-            if s[i] not in cons:
+        if s[idx].isalpha:
+            if s[idx] not in cons:
                 count_c+=1
-        i+=1    
+        idx+=1    
     return count_c
   
