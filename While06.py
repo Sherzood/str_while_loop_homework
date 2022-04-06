@@ -8,7 +8,7 @@ def main(s):
         int: return answer
     """
     import string
-    cons='a,e,i,o,u,y,A,E,I,O,U,Y'
+    cons='a,e,i,o,u,y'
     count_c=0
     i=0
     while i<len(s):
